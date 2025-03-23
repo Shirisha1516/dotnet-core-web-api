@@ -17,7 +17,7 @@ spec:
         app: dotnet-core-web-api
     spec:
       containers:
-      - image: demostyava.azurecr.io/dotnet-core-web-api:1.0.0
+      - image: default-route-openshift-image-registry.apps.ocp4.ocp.local/dotnet-app/dotnet-core-web-api:latest
         name: dotnet-core-web-api
         resources: {}
         env: 
